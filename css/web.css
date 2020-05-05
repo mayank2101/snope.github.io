@@ -1,0 +1,159 @@
+html,
+body {
+    height: 100%;
+}
+
+.customer-caption {
+    padding-left: 60px;
+}
+
+.customer-img .customar-img1 {
+    max-width: 630px;
+}
+
+.customer-img .customar-img2 {
+    right: -62px;
+    position: relative;
+}
+
+.customer-img .customar-img2 {
+    max-width: 400px;
+    position: absolute;
+    top: -60px;
+    right: -11px;
+    z-index: -1;
+}
+
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+.make-customer-area {
+    position: relative;
+}
+
+.customar-padding {
+    padding-top: 160px;
+    padding-bottom: 93px;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.service-experience {
+    min-width: 20%;
+}
+
+.service-experience {
+    right: -21px;
+}
+
+.service-experience {
+    background: #262626;
+    position: absolute;
+    right: 38px;
+    border-radius: 10px;
+    box-shadow: 0.907px 12.968px 20px 0px rgba(19, 1, 1, 0.918);
+    bottom: 0;
+    width: 418px;
+    bottom: -27px;
+    padding: 28px 0;
+    text-align: center;
+}
+
+.heartbeat {
+    animation: heartbeat 1s infinite alternate;
+}
+
+@-webkit-keyframes heartbeat {
+    to {
+        -webkit-transform: scale(1.03);
+        transform: scale(1.03);
+    }
+}
+
+
+}
+.service-experience h3 {
+    font-size: 28px;
+}
+.service-experience h3 {
+    color: #ffffff;
+    font-size: 35px;
+}
+.customer-caption .caption-details .pera-dtails {
+    font-size: 17px;
+}
+.customer-caption .caption-details .pera-dtails {
+    color: #112e41 !important;
+    font-size: 20px;
+    padding-right: 69px;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+.customer-caption .caption-details p {
+    color: #888888;
+    line-height: 28px;
+    font-size: 15px;
+    margin-bottom: 52px;
+    padding-right: 26px;
+}
+.customer-caption span {
+    color: #dca73a;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 13px;
+}
+.customer-caption h2 {
+    font-size: 22px;
+}
+.customer-caption h2 {
+    color: #05588f;
+    font-size: 37px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 32px;
+    font-family: 'Noto Serif', serif;
+}
+.customer-caption .caption-details .pera-dtails {
+    font-size: 17px;
+}
+.customer-caption .caption-details .pera-dtails {
+    color: #055991 !important;
+    font-size: 20px;
+    padding-right: 69px;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+.customer-caption .caption-details .pera-dtails {
+    line-height: 28px;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+h3 {
+    text-align: center;
+}
+.zoomIn {
+    color: #FF5733;
+}
+.btn-block {
+    width: 100px;
+    height: 30px;
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 11px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+.btn-block:hover {
+    background-color: #7dcda3;
+}
