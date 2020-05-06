@@ -1,0 +1,246 @@
+html,
+body {
+    height: 100%;
+}
+
+.navbar-nav a {
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-right: 100px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px black;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+.nav-link.active,
+.nav-link:focus,
+.navbar-dark .navbar-nav .nav-link :hover {
+    color: #fff !important;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+@media only screen and (max-width:767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: black
+}
+
+.bg-dark {
+    transition: 500ms ease;
+    background: transparent !important;
+}
+
+.bg-dark.scrolled {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 49, 9, 1) 35%, rgba(22, 26, 27, 1) 100%)!important;
+}
+
+.nav-link dropdown-toggle {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-item dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #110101;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 1642px;
+}
+
+.contact-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h2 {
+    line-height: 1.2rem;
+}
+
+h2 {
+    font-family: " lato", sans-serif;
+    color: #0f8dd6;
+}
+
+h2 {
+    margin-top: 0px;
+    font-style: normal;
+}
+
+.col-lg-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.col-lg-8 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+ ::placeholder {
+    text-transform: uppercase;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.media-body {
+    flex: 1;
+}
+
+.contact-info .media-body h3 {
+    margin-bottom: 0;
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+
+.contact-info__icon i,
+.contact-info__icon span {
+    color: black;
+    font-size: 30px;
+}
+
+.fas {
+    padding: 20px;
+}
+
+.slidebar {
+    position: relative;
+}
+
+.text-body {
+    position: absolute;
+    top: 150px;
+    left: 270px;
+}
+
+h4 {
+    font-size: 2.9rem;
+    font-weight: 700;
+    font-family: inherit;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.boxed-btn {
+    background: green;
+    color: white;
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 1ch;
+}
+
+
+}
