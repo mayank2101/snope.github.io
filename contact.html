@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang=" en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>
+        SNOPE
+    </title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel=" stylesheet" href="css/animate.css">
+    <link rel=" stylesheet" href="css/all.min.css">
+    <link rel=" stylesheet" href="css/con.css">
+    <link rel=" stylesheet" href="css/sec.css">
+    <link rel="stylesheet" href="css/pop.css">
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top">
+
+        <a class="navbar-brand  animated lightSpeedIn" style=" animation-delay:1s" href="#">Snope</a><br>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-hover" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Content
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="contact.html">Cantact</a>
+
+                        <a class="dropdown-item" href="#">News</a>
+                        <a class="dropdown-item" href="#">Blog</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn-block" onclick="document.getElementById('modal-wrapper').style.display='block'">login</button>
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
+    <div id="modal-wrapper" class="modal">
+        <div class="login-form modal-content animate">
+            <form>
+                <use onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</use>
+                <h1>Welcome back</h1>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="E-mail Address">
+                    <span class="input-icon"><i class="fa fa-envelope"></i></span>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="psw" placeholder="Password">
+                    <span class="input-icon"><i class="fa fa-lock"></i></span>
+                </div>
+                <button class="login-btn">Login</button>
+                <a class="reset-psw" href="#">Forgot your password?</a>
+                <div class="seperator"><b>or</b></div>
+                <p>Sign in with your social media account</p>
+                <div class="social-icon">
+                    <button type="button"><i class="fab fa-twitter"></i></button>
+                    <button type="button"><i class="fab fa-facebook"></i></button>
+                    <br>
+                </div>
+            </form>
+            <p class="g-footer">
+                Not registered?
+                <a href="#">sign up</a>
+            </p>
+        </div>
+    </div>
+    <center>
+        <div class=" container-fluid">
+            <div class=" slidebar">
+                <img src="img/contact_hero.jpg">
+            </div>
+            <div class=" text-body">
+                <h4>Contact Here</h4>
+            </div>
+
+        </div>
+    </center>
+    <br><br>
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="contact-title animated bounceInRight" style=" animation-delay: 1s;"> Get in Touch</h2>
+                </div>
+                <div class="col-lg-8">
+                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Enter Message" type="text"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="fas fa-home"></i></span>
+                        <div class="media-body">
+                            <h3>Anuppur,Madhya Pradesh</h3>
+                            <p>Pincode, 484224</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="fas fa-tablet"></i></span>
+                        <div class="media-body">
+                            <h3>+91 6260937332</h3>
+                            <p>All Time Free</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="fas fa-envelope-square"></i></span>
+                        <div class="media-body">
+                            <h3>mayankkumar111@yahoo.com</h3>
+                            <p>Send us your query anytime!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </br>
+    <br>
+    <br>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Hey ! Are you web designer.<i>CODE WANTS TO BE SIMPLE </i> If there's one thing you learn by working on a lot of different Web sites, it's that almost any design idea no matter how appallingly bad can be made usable in the right circumstances,
+                        pariatur aperiam perferendis vitae reprehenderit consequatur ut nobis! Asperiores iure unde, magni praesentium sint accusamus soluta, dolorem nesciunt ex ea molestiae corrupti adipisci? with enough effort pariatur aperiam perferendis
+                        vitae reprehenderit consequatur ut nobis! Asperiores iure unde.
+                    </p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">HTML5</a></li>
+                        <li><a href="#">CSS3</a></li>
+                        <li><a href="#">Java Script</a></li>
+                        <li><a href="#">Jquery</a></li>
+                        <li><a href="#">Bootstrap4</a></li>
+                        <li><a href="#">Animation</a></li>
+                        <li><a href="#">Font-Awesome</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Contribute</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Designer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                        <a href="#">Web Designer</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-5 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class=" instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a class=" google" href="#"><i class="fab fa-google"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+
+</html>
